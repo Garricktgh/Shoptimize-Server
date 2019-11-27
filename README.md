@@ -1,1 +1,1 @@
-# Shoptimize-server
+# Shoptimize Server
