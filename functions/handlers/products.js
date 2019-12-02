@@ -8,7 +8,7 @@ exports.getAllProducts = (req, res) => {
       let products = [];
       data.forEach(doc => {
         products.push({
-          screamId: doc.id,
+          productId: doc.id,
           ...doc.data()
         });
       });
